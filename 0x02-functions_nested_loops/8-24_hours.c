@@ -29,7 +29,7 @@ minutes_ones = '0';
 while (minutes_ones < 58)
 {
 _putchar(hours_tens);
-_putchar(hours_ones);												
+_putchar(hours_ones);
 _putchar(':');
 _putchar(minutes_tens);
 _putchar(minutes_ones);
