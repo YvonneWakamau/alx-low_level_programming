@@ -17,7 +17,7 @@ res = 0;
 while (*(s + index) != '\0')
 {
 now = *(s + index);
-if (now == '-')
+if (now =='-')
 {
 sign *= -1;
 }
