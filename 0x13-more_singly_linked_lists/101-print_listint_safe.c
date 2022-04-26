@@ -15,8 +15,12 @@ while (head)
 diff = head - head->next;
 num++;
 printf("[%p] %d\n", (void *)head, head->n);
+if (diff >= 0)
+{
+num++;
 if (diff > 0)
 head = head->next;
+}
 else
 {
 printf("-> [%p] %d\n", (void *)head->next, head->next->n);
